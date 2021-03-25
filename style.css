@@ -1,0 +1,55 @@
+body {
+    background-image: url("happy.jpg");
+    background-size:cover;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Merienda", sans-serif;
+    margin: 40px 0 5px 0;
+}
+
+.countdown {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(131, 124, 124);  
+    display: flex;
+    margin: 40px 10px 20px 10px;  
+    justify-content: center;    
+    
+}
+
+h2 {
+    font-family: 'Sacramento', sans-serif;
+    margin: 10px 5px 5px 5px;    
+    font-size: 50px;
+    transition: font-size 1s;
+}
+h2:hover {
+    font-size: 55px;
+    
+}
+h4 {
+    font-family: 'Merienda', sans-serif;
+    font-size: 30px;
+    
+}
+
+.d,  .h, .m, .s {
+    border: 3px solid rgba(160, 132, 9, 0.795);
+    border-radius:10px;   
+    margin: 5px 10px 5px 10px;
+    text-align: center;
+    height: 200px;
+    width: 20%; 
+}
+
+.year {
+    color: rgba(160, 132, 9, 0.795);
+    opacity: 40%;
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Sacramento', sans-serif;
+}
+
