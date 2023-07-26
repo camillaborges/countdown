@@ -1,14 +1,13 @@
 body {
-    background-image: url("happy.jpg");
-    background-size:cover;
-
+    background: rgba(139, 124, 56, 0.774);
+    font-family: "Orbitron", sans-serif;
+    
 }
 
 h1 {
     color: white;
     text-align: center;
-    font-family: "Merienda", sans-serif;
-    margin: 40px 0 5px 0;
+    margin: 1.5em 0;
 }
 
 .countdown {
@@ -21,7 +20,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Sacramento', sans-serif;
     margin: 10px 5px 5px 5px;    
     font-size: 50px;
     transition: font-size 1s;
@@ -31,7 +29,6 @@ h2:hover {
     
 }
 h4 {
-    font-family: 'Merienda', sans-serif;
     font-size: 30px;
     
 }
@@ -46,10 +43,10 @@ h4 {
 }
 
 .year {
-    color: rgba(160, 132, 9, 0.795);
+    margin-top: 0.5em;
+    color: white;
     opacity: 40%;
-    font-size: 200px;
+    font-size: 10rem;
     text-align: center;
-    font-family: 'Sacramento', sans-serif;
 }
 
